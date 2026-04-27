@@ -1,3 +1,8 @@
+# Program Name: spoof_attack
+# Author: Kenneth Sutter
+# Date: 4/01/26
+# Description: Code to simulate spoofing attack on CAN network vcan0
+
 import can
 import time
 

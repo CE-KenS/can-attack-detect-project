@@ -1,3 +1,9 @@
+# Program Name: multi_receiver
+# Author: Kenneth Sutter
+# Date: 4/01/26
+# Description: This code creates a CAN dashboard receiver that listens on vcan0, reads speed, RPM, and brake CAN messages, 
+# decodes their values, and continuously prints the latest vehicle state to the console.
+
 import can
 
 from src.core.config import (

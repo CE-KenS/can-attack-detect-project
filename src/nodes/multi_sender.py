@@ -1,3 +1,9 @@
+# Program Name: multi_sender
+# Author: Kenneth Sutter
+# Date: 4/02/26
+# Description: This code simulates a vehicle ECU by generating speed, RPM, and brake values, sending them as 
+# CAN messages on the vcan0 network at a fixed interval, and printing each transmitted signal to the console.
+
 import can
 import time
 

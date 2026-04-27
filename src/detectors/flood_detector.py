@@ -1,3 +1,8 @@
+# Program Name: flood_detector
+# Author: Kenneth Sutter
+# Date: 4/05/26
+# Description: Code to detect flooding attacks on CAN network vcan0
+
 import can
 import time
 

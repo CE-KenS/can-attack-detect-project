@@ -1,3 +1,8 @@
+# Program Name: config
+# Author: Kenneth Sutter
+# Date: 4/01/26
+# Description: Config file to define the main 
+# CAN message IDs, send timing, detection thresholds.
 
 # Can signals
 CAN_ID_SPEED = 0x100

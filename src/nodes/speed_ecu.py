@@ -1,4 +1,9 @@
-# Import librarys
+# Program Name: speed_ecu
+# Author: Kenneth Sutter
+# Date: 4/01/26
+# Description: This code simulates a speed ECU that repeatedly sends a default speed 
+# value as a CAN message on the vcan0 network using the configured CAN ID and send period.
+
 import can
 import time
 

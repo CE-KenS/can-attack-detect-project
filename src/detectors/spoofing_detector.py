@@ -1,3 +1,8 @@
+# Program Name: spoofing_detector
+# Author: Kenneth Sutter
+# Date: 4/03/26
+# Description: Code to detect spoofing attacks on CAN network vcan0
+
 import can
 
 # Import global variables from config file

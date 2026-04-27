@@ -1,3 +1,9 @@
+# Program Name: dashboard_receiver
+# Author: Kenneth Sutter
+# Date: 4/01/26
+# Description: This code starts a simple CAN dashboard that listens on the vcan0 interface, receives speed messages using 
+# the configured CAN speed ID, and prints the decoded speed value to the console.
+
 import can
 
 # import can speed parameter from config file

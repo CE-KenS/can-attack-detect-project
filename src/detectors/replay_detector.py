@@ -1,3 +1,8 @@
+# Program Name: replay_detector
+# Author: Kenneth Sutter
+# Date: 4/03/26
+# Description: Code to detect replay attacks on CAN network vcan0
+
 import can
 import time
 

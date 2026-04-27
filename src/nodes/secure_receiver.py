@@ -1,3 +1,10 @@
+# Program Name: secure_receiver
+# Author: Kenneth Sutter
+# Date: 4/02/26
+# Description: This code creates a secure CAN receiver that listens for 
+# speed, RPM, and brake messages, detects flooding or suspicious signal behavior, 
+# applies mitigation by holding last known good values, and prints the trusted dashboard output to the console
+
 import can
 import time
 
